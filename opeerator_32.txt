@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+int a,b,c,d=0,e,f=0;
+scanf("%d",&a);
+while(a!=0)
+  { 
+      b=a%10;
+      if(b==9)
+      {
+          c=0;
+      }
+      else
+      {
+          c=b+1;
+      }
+      d=(d*10)+c;
+      a=a/10;
+  }
+while(d!=0)
+  {
+      e=d%10;
+      f=(f*10)+e;
+      d=d/10;
+  }
+printf("%d",f);
+return 0;
+}
