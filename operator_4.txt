@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,greater;
+    scanf("%d%d",&a,&b);
+    (a>b)?(greater=a):(greater=b);
+    printf("%d",greater);
+
+    return 0;
+}
