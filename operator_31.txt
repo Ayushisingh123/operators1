@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int min,sec,hr,r;
+    scanf("%d",&sec);
+   hr=sec/3600;
+   r=sec%3600;
+   min=r/60;
+   r=r%60;
+   sec=r;
+    printf("%d is hour %d is minute %d is second",hr,min,sec);
+    
+    return 0;
+}
